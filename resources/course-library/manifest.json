@@ -1,0 +1,469 @@
+{
+  "version": 1,
+  "created_at": "2026-10-31",
+  "license_note": "原创中文教学整理与自编示例；官方来源保留版权，未镜像或复制整本手册。",
+  "materials": [
+    {
+      "id": "mysql-01-schema",
+      "course_id": 1,
+      "title": "从业务对象设计关系表",
+      "filename": "数据库_01_从业务对象设计关系表.md",
+      "path": "database/mysql-01-schema.md",
+      "sources": [
+        {
+          "title": "Creating a Table",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "mysql-02-select",
+      "course_id": 1,
+      "title": "筛选、排序与空值的查询推理",
+      "filename": "数据库_02_筛选、排序与空值的查询推理.md",
+      "path": "database/mysql-02-select.md",
+      "sources": [
+        {
+          "title": "Selecting Particular Rows",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/selecting-rows.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "mysql-03-aggregate",
+      "course_id": 1,
+      "title": "分组统计与统计口径",
+      "filename": "数据库_03_分组统计与统计口径.md",
+      "path": "database/mysql-03-aggregate.md",
+      "sources": [
+        {
+          "title": "Aggregate Function Descriptions",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "mysql-04-joins",
+      "course_id": 1,
+      "title": "连接查询与一对多行数",
+      "filename": "数据库_04_连接查询与一对多行数.md",
+      "path": "database/mysql-04-joins.md",
+      "sources": [
+        {
+          "title": "JOIN Clause",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/join.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "mysql-05-constraints",
+      "course_id": 1,
+      "title": "主外键与数据完整性实验",
+      "filename": "数据库_05_主外键与数据完整性实验.md",
+      "path": "database/mysql-05-constraints.md",
+      "sources": [
+        {
+          "title": "FOREIGN KEY Constraints",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/constraint-foreign-key.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "mysql-06-transactions",
+      "course_id": 1,
+      "title": "事务、回滚与并发扣库存",
+      "filename": "数据库_06_事务、回滚与并发扣库存.md",
+      "path": "database/mysql-06-transactions.md",
+      "sources": [
+        {
+          "title": "InnoDB Transaction Model",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-model.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "mysql-07-indexes",
+      "course_id": 1,
+      "title": "索引选择与执行计划入门",
+      "filename": "数据库_07_索引选择与执行计划入门.md",
+      "path": "database/mysql-07-indexes.md",
+      "sources": [
+        {
+          "title": "Optimization and Indexes",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/optimization-indexes.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        },
+        {
+          "title": "EXPLAIN Statement",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/explain.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "mysql-08-windows",
+      "course_id": 1,
+      "title": "窗口函数与分组前几名",
+      "filename": "数据库_08_窗口函数与分组前几名.md",
+      "path": "database/mysql-08-windows.md",
+      "sources": [
+        {
+          "title": "Window Function Concepts and Syntax",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/window-functions-usage.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "mysql-09-views",
+      "course_id": 1,
+      "title": "视图、接口字段与更新边界",
+      "filename": "数据库_09_视图、接口字段与更新边界.md",
+      "path": "database/mysql-09-views.md",
+      "sources": [
+        {
+          "title": "Using Views",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/views.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "mysql-10-backup",
+      "course_id": 1,
+      "title": "备份恢复与可验证的数据演练",
+      "filename": "数据库_10_备份恢复与可验证的数据演练.md",
+      "path": "database/mysql-10-backup.md",
+      "sources": [
+        {
+          "title": "mysqldump — A Database Backup Program",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "python-01-basics",
+      "course_id": 2,
+      "title": "变量、字符串与数值边界",
+      "filename": "Python_01_变量、字符串与数值边界.md",
+      "path": "python/python-01-basics.md",
+      "sources": [
+        {
+          "title": "Python 速览",
+          "url": "https://docs.python.org/zh-cn/3.12/tutorial/introduction.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Python Software Foundation"
+        }
+      ]
+    },
+    {
+      "id": "python-02-control",
+      "course_id": 2,
+      "title": "分支、循环与边界数据",
+      "filename": "Python_02_分支、循环与边界数据.md",
+      "path": "python/python-02-control.md",
+      "sources": [
+        {
+          "title": "更多控制流工具",
+          "url": "https://docs.python.org/zh-cn/3.12/tutorial/controlflow.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Python Software Foundation"
+        }
+      ]
+    },
+    {
+      "id": "python-03-collections",
+      "course_id": 2,
+      "title": "列表、字典与去重汇总",
+      "filename": "Python_03_列表、字典与去重汇总.md",
+      "path": "python/python-03-collections.md",
+      "sources": [
+        {
+          "title": "数据结构",
+          "url": "https://docs.python.org/zh-cn/3.12/tutorial/datastructures.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Python Software Foundation"
+        }
+      ]
+    },
+    {
+      "id": "python-04-functions",
+      "course_id": 2,
+      "title": "函数参数、返回值与可变默认值",
+      "filename": "Python_04_函数参数、返回值与可变默认值.md",
+      "path": "python/python-04-functions.md",
+      "sources": [
+        {
+          "title": "更多控制流工具：函数与参数",
+          "url": "https://docs.python.org/zh-cn/3.12/tutorial/controlflow.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Python Software Foundation"
+        }
+      ]
+    },
+    {
+      "id": "python-05-modules",
+      "course_id": 2,
+      "title": "模块拆分、导入与入口保护",
+      "filename": "Python_05_模块拆分、导入与入口保护.md",
+      "path": "python/python-05-modules.md",
+      "sources": [
+        {
+          "title": "模块",
+          "url": "https://docs.python.org/zh-cn/3.12/tutorial/modules.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Python Software Foundation"
+        }
+      ]
+    },
+    {
+      "id": "python-06-files",
+      "course_id": 2,
+      "title": "文本文件、JSON与编码契约",
+      "filename": "Python_06_文本文件、JSON与编码契约.md",
+      "path": "python/python-06-files.md",
+      "sources": [
+        {
+          "title": "输入与输出",
+          "url": "https://docs.python.org/zh-cn/3.12/tutorial/inputoutput.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Python Software Foundation"
+        }
+      ]
+    },
+    {
+      "id": "python-07-exceptions",
+      "course_id": 2,
+      "title": "异常处理与失败信息保留",
+      "filename": "Python_07_异常处理与失败信息保留.md",
+      "path": "python/python-07-exceptions.md",
+      "sources": [
+        {
+          "title": "错误和异常",
+          "url": "https://docs.python.org/zh-cn/3.12/tutorial/errors.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Python Software Foundation"
+        }
+      ]
+    },
+    {
+      "id": "python-08-classes",
+      "course_id": 2,
+      "title": "类、实例状态与不变量",
+      "filename": "Python_08_类、实例状态与不变量.md",
+      "path": "python/python-08-classes.md",
+      "sources": [
+        {
+          "title": "类",
+          "url": "https://docs.python.org/zh-cn/3.12/tutorial/classes.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Python Software Foundation"
+        }
+      ]
+    },
+    {
+      "id": "python-09-stdlib",
+      "course_id": 2,
+      "title": "标准库组合与可复现统计",
+      "filename": "Python_09_标准库组合与可复现统计.md",
+      "path": "python/python-09-stdlib.md",
+      "sources": [
+        {
+          "title": "标准库简介",
+          "url": "https://docs.python.org/zh-cn/3.12/tutorial/stdlib.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Python Software Foundation"
+        }
+      ]
+    },
+    {
+      "id": "python-10-environment",
+      "course_id": 2,
+      "title": "虚拟环境、依赖与浮点精度",
+      "filename": "Python_10_虚拟环境、依赖与浮点精度.md",
+      "path": "python/python-10-environment.md",
+      "sources": [
+        {
+          "title": "虚拟环境和包",
+          "url": "https://docs.python.org/zh-cn/3.12/tutorial/venv.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Python Software Foundation"
+        },
+        {
+          "title": "浮点算术：争议和限制",
+          "url": "https://docs.python.org/zh-cn/3.12/tutorial/floatingpoint.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Python Software Foundation"
+        }
+      ]
+    },
+    {
+      "id": "java-01-types",
+      "course_id": 3,
+      "title": "基本类型、字符串与数值转换",
+      "filename": "Java_01_基本类型、字符串与数值转换.md",
+      "path": "java/java-01-types.md",
+      "sources": [
+        {
+          "title": "Primitive Data Types",
+          "url": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "java-02-flow",
+      "course_id": 3,
+      "title": "流程控制与方法边界",
+      "filename": "Java_02_流程控制与方法边界.md",
+      "path": "java/java-02-flow.md",
+      "sources": [
+        {
+          "title": "Control Flow Statements",
+          "url": "https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "java-03-objects",
+      "course_id": 3,
+      "title": "类、封装与课程容量规则",
+      "filename": "Java_03_类、封装与课程容量规则.md",
+      "path": "java/java-03-objects.md",
+      "sources": [
+        {
+          "title": "Classes",
+          "url": "https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "java-04-inheritance",
+      "course_id": 3,
+      "title": "继承、多态与可替换行为",
+      "filename": "Java_04_继承、多态与可替换行为.md",
+      "path": "java/java-04-inheritance.md",
+      "sources": [
+        {
+          "title": "Inheritance",
+          "url": "https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "java-05-interfaces",
+      "course_id": 3,
+      "title": "接口、策略与依赖替换",
+      "filename": "Java_05_接口、策略与依赖替换.md",
+      "path": "java/java-05-interfaces.md",
+      "sources": [
+        {
+          "title": "Interfaces",
+          "url": "https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "java-06-collections",
+      "course_id": 3,
+      "title": "集合选择、去重与计数",
+      "filename": "Java_06_集合选择、去重与计数.md",
+      "path": "java/java-06-collections.md",
+      "sources": [
+        {
+          "title": "The List Interface",
+          "url": "https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "java-07-generics",
+      "course_id": 3,
+      "title": "泛型、类型安全与通配符",
+      "filename": "Java_07_泛型、类型安全与通配符.md",
+      "path": "java/java-07-generics.md",
+      "sources": [
+        {
+          "title": "Generic Types",
+          "url": "https://docs.oracle.com/javase/tutorial/java/generics/types.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "java-08-exceptions",
+      "course_id": 3,
+      "title": "异常分类与资源自动关闭",
+      "filename": "Java_08_异常分类与资源自动关闭.md",
+      "path": "java/java-08-exceptions.md",
+      "sources": [
+        {
+          "title": "The try-with-resources Statement",
+          "url": "https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "java-09-files",
+      "course_id": 3,
+      "title": "NIO文件、字符编码与写入策略",
+      "filename": "Java_09_NIO文件、字符编码与写入策略.md",
+      "path": "java/java-09-files.md",
+      "sources": [
+        {
+          "title": "Reading, Writing, and Creating Files",
+          "url": "https://docs.oracle.com/javase/tutorial/essential/io/file.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "java-10-streams",
+      "course_id": 3,
+      "title": "Stream筛选、映射与归约",
+      "filename": "Java_10_Stream筛选、映射与归约.md",
+      "path": "java/java-10-streams.md",
+      "sources": [
+        {
+          "title": "Reduction",
+          "url": "https://docs.oracle.com/javase/tutorial/collections/streams/reduction.html",
+          "acquired_at": "2026-10-31",
+          "publisher": "Oracle"
+        }
+      ]
+    }
+  ]
+}

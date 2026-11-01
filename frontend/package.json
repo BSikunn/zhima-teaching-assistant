@@ -1,0 +1,28 @@
+{
+  "name": "zhima-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "vue": "3.5.22",
+    "vue-router": "4.6.3",
+    "pinia": "3.0.3",
+    "element-plus": "2.11.5",
+    "echarts": "6.0.0",
+    "axios": "1.12.2",
+    "lucide-vue-next": "0.468.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "5.2.4",
+    "typescript": "5.9.3",
+    "vite": "6.3.6",
+    "vue-tsc": "3.1.1",
+    "@types/node": "22.18.10",
+    "playwright": "1.56.1"
+  }
+}

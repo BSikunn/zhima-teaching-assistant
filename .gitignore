@@ -1,0 +1,21 @@
+# Private configuration and runtime data
+.env
+.env.*
+!.env.example
+.runtime/
+.cache/
+.venv/
+data/
+logs/
+models/
+node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+.superpowers/
+*.pyc
+*.tsbuildinfo
+*.db
+*.sqlite
+*.sqlite3
+*.bak

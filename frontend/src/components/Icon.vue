@@ -1,0 +1,8 @@
+<script setup lang="ts">
+import { computed } from 'vue'
+import { LayoutDashboard, MessagesSquare, BookOpen, ClipboardList, BookMarked, CalendarCheck, Database, SlidersHorizontal, ShieldCheck, GraduationCap, ArrowUpRight, ArrowRight, ChevronRight, ChevronDown, Plus, Send, Sparkles, Search, Bell, LogOut, Code2, FileText, Upload, Download, Trash2, Check, CircleCheck, Clock3, Users, ChartNoAxesCombined, Target, Lightbulb, RefreshCw, X, Menu, FolderOpen, BadgeCheck, AlertCircle, ExternalLink, Settings2, Play, Layers, CheckCheck, NotebookPen, Bot } from 'lucide-vue-next'
+const props = withDefaults(defineProps<{ name: string, size?: number }>(), { size: 20 })
+const icons: Record<string, any> = { dashboard: LayoutDashboard, chat: MessagesSquare, book: BookOpen, assignment: ClipboardList, mistakes: BookMarked, plan: CalendarCheck, database: Database, sliders: SlidersHorizontal, shield: ShieldCheck, graduation: GraduationCap, arrowUp: ArrowUpRight, arrow: ArrowRight, chevron: ChevronRight, down: ChevronDown, plus: Plus, send: Send, sparkle: Sparkles, search: Search, bell: Bell, logout: LogOut, code: Code2, file: FileText, upload: Upload, download: Download, trash: Trash2, check: Check, success: CircleCheck, clock: Clock3, users: Users, chart: ChartNoAxesCombined, target: Target, bulb: Lightbulb, refresh: RefreshCw, x: X, menu: Menu, folder: FolderOpen, badge: BadgeCheck, alert: AlertCircle, external: ExternalLink, settings: Settings2, play: Play, layers: Layers, review: CheckCheck, notebook: NotebookPen, bot: Bot }
+const component = computed(() => icons[props.name] || BookOpen)
+</script>
+<template><component :is="component" :size="size" :stroke-width="1.8" aria-hidden="true" /></template>
